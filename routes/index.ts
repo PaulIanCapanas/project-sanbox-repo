@@ -7,8 +7,8 @@ import RoomController from "../controller/rooms";
 
 export const router = express.Router()
 
-router.post('/test', UserController.createUser);
-router.post('/test2', BuildingOwnerController.createBuildingOwner);
-router.post('/test3', BoarderController.createBoarder);
-router.post('/test4', BuildingController.createBuilding);
-router.post('/test5', RoomController.createRoom);
+router.post('/create-user', UserController.createUser);
+router.post('/create-building-owner', BuildingOwnerController.createBuildingOwner);
+router.post('/create-boarder', BoarderController.createBoarder);
+router.post('/create-building', BuildingController.createBuilding);
+router.post('/create-room', RoomController.createRoom);
